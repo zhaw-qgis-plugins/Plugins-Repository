@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugins>
-    <pyqgis_plugin name="Roe Deer Corridor Demo" version="0.2.0">
+    <pyqgis_plugin name="Roe Deer Corridor Demo" version="0.2.1">
         <description>Calculates least-cost paths for roe deer corridor analysis.</description>
         <about>Demo plugin that generates least-cost paths from a resistance surface and shows reachable vs unreachable endpoints.</about>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version />
         <homepage />
