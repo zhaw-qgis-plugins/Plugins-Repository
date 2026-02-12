@@ -17,6 +17,6 @@
         <experimental>True</experimental>
         <deprecated />
         <file_name>roe_deer_corridor_demo.zip</file_name>
-        <download_url>plugins/roe_deer_corridor_demo.zip</download_url>
+        <download_url>https://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins/roe_deer_corridor_demo.zip</download_url>
     </pyqgis_plugin>
 </plugins>
