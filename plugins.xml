@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugins>
-    <pyqgis_plugin name="Roe Deer Corridor Demo" version="0.4.0">
+    <pyqgis_plugin name="Roe Deer Corridor Demo" version="0.4.1">
         <description>Calculates least-cost paths for roe deer corridor analysis.</description>
         <about>Demo plugin that generates least-cost paths from a resistance surface and shows reachable vs unreachable endpoints.</about>
-        <version>0.4.0</version>
+        <version>0.4.1</version>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version />
         <homepage />
         <tracker>https://github.com/zhaw-qgis-plugins/QGIS-Plugin-Demo/issues</tracker>
         <repository>https://github.com/zhaw-qgis-plugins/QGIS-Plugin-Demo</repository>
-        <author_name>Lukas Buchmann</author_name>
+        <author_name>Lukas Buchmann, Nils Ratnaweera</author_name>
         <email />
         <icon />
         <tags>wildlife,corridor,least-cost-path,roe deer</tags>
