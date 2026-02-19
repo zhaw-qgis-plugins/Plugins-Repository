@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "roe-deer-corridor-demo.html",
+    "href": "roe-deer-corridor-demo.html",
+    "title": "",
+    "section": "",
+    "text": "Das Plugin erscheint nun als Tool in der Seitenleiste Verarbeitungswerkzeuge (Processing tools) unter dem Menüpunkt Roe Deer Corridor Demo (siehe Abbildung 1). Allenfalls muss diese Seitenleiste noch aktiviert werden (Menüpunkt Verarbeitung → Werkzeugleiste).\n\nTool via der Seitenleiste öffnen.\nIm Tool unter dem Menüpunkt Resistance Surface den Wiederstands-Raster auswählen (dieser Datensatz wird separat geliefert). Siehe Abbildung 2\nStartpunkt auswählen (mit Klick auf … und danach Klick auf die Karte)\nAlle anderen Parameter können auf den Standardwerten belassen werden. Mit Klick auf Starte ausführen.\nSobald das Tool gelaufen ist, werden die Layer Least Cost Path sowie Start- und Endpunkte dem Projekt hinzugefügt (siehe Abbildung 3).\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 3"
+  },
+  {
+    "objectID": "roe-deer-corridor-demo.html#plugin-roe-deer-corridor-demo-verwenden",
+    "href": "roe-deer-corridor-demo.html#plugin-roe-deer-corridor-demo-verwenden",
+    "title": "",
+    "section": "",
+    "text": "Das Plugin erscheint nun als Tool in der Seitenleiste Verarbeitungswerkzeuge (Processing tools) unter dem Menüpunkt Roe Deer Corridor Demo (siehe Abbildung 1). Allenfalls muss diese Seitenleiste noch aktiviert werden (Menüpunkt Verarbeitung → Werkzeugleiste).\n\nTool via der Seitenleiste öffnen.\nIm Tool unter dem Menüpunkt Resistance Surface den Wiederstands-Raster auswählen (dieser Datensatz wird separat geliefert). Siehe Abbildung 2\nStartpunkt auswählen (mit Klick auf … und danach Klick auf die Karte)\nAlle anderen Parameter können auf den Standardwerten belassen werden. Mit Klick auf Starte ausführen.\nSobald das Tool gelaufen ist, werden die Layer Least Cost Path sowie Start- und Endpunkte dem Projekt hinzugefügt (siehe Abbildung 3).\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 3"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ZHAW QGIS Plugins Repositorium",
+    "section": "",
+    "text": "Diese Webseite ist ein QGIS Plugin Repositorium der ZHAW Forschungsgruppe Geoinformatik. Zum aktuellen Zeitpunkt (19.02.2026) befindet sich hier nur ein Plugin zu Demonstrationszwecken (Roe Deer Corridor Demo). Die vorliegende Anleitung beschreibt verschiedene Installationsoptionen wie auch die Nutzung des Plugins Roe Deer Corridor Demo."
+  },
+  {
+    "objectID": "zhaw-repository.html",
+    "href": "zhaw-repository.html",
+    "title": "",
+    "section": "",
+    "text": "QGIS starten. Menü Erweiterungen → Erweiterungen verwalten und installieren\nIm Reiter Einstellungen auf Hinzufügen klicken (siehe Abbildung 1)\nDen URL vom ZHAW-eigenen Plugins Repositorium hinzufügen (siehe Abbildung 2) und mit OK bestätigen\n\n\nhttps://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins.xml\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\n\n\n\n\n\n\nIn der Suchleiste nach Roe Deer Corridor Demo suchen und beim entsprechenden Plugin auf Erweiterung installieren klicken (s. Abbildung 3)\n\n\n\n\n\n\nAbbildung 3"
+  },
+  {
+    "objectID": "zhaw-repository.html#installation-via-zhaw-plugins-repository",
+    "href": "zhaw-repository.html#installation-via-zhaw-plugins-repository",
+    "title": "",
+    "section": "",
+    "text": "QGIS starten. Menü Erweiterungen → Erweiterungen verwalten und installieren\nIm Reiter Einstellungen auf Hinzufügen klicken (siehe Abbildung 1)\nDen URL vom ZHAW-eigenen Plugins Repositorium hinzufügen (siehe Abbildung 2) und mit OK bestätigen\n\n\nhttps://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins.xml\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\n\n\n\n\n\n\nIn der Suchleiste nach Roe Deer Corridor Demo suchen und beim entsprechenden Plugin auf Erweiterung installieren klicken (s. Abbildung 3)\n\n\n\n\n\n\nAbbildung 3"
+  },
+  {
+    "objectID": "zip-file.html",
+    "href": "zip-file.html",
+    "title": "Installation via Zip File",
+    "section": "",
+    "text": "Das Plugin kann auch via einem Zip File installiert werden. Dafür muss das Zipfile via folgendem Link heruntergeladen werden:\n\n\n\nRoe Deer Corridor Demo\n\n\n\nDanach in QGIS den Menüpunkt Erweiterungen → Erweiterungen verwalten und installieren auswählen. Im Reiter das Menü Aus ZIP installieren auswählen (siehe Abbildung 1) und ZIP-Datei mit klick auf … auswählen und mit Erweiterung installieren bestätigen.\n\n\n\n\n\n\nAbbildung 1"
+  }
+]
