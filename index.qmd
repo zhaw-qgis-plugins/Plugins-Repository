@@ -2,7 +2,7 @@
 title: ZHAW QGIS Plugins Repositorium
 subtitle: Nutzeranleitung
 lang: de
-engine: knitr
+engine: jupyter
 format: 
     html:
         embed-resources: true
@@ -15,95 +15,4 @@ Diese Webseite ist ein QGIS Plugin Repositorium der [ZHAW Forschungsgruppe Geoin
 
 
 
-## Installation via ZHAW Plugins Repository
-
-
-
-### Repositorium aufsetzen
-
-1. QGIS starten. Menü [Erweiterungen]{.menu} → [Erweiterungen verwalten und installieren]{.menu}
-2. Im Reiter [Einstellungen]{.menu} auf [Hinzufügen]{.menu} klicken (siehe @fig-erweiterungen)
-3. Den URL vom ZHAW-eigenen Plugins Repositorium  hinzufügen (siehe @fig-erweiterungen2) und mit [OK]{.menu} bestätigen
-
-
-:::{.center}
-`https://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins.xml`
-:::
-
-
-::::{.column-page}
-:::{layout-ncol="2"}
-![](erweiterungen.png){#fig-erweiterungen}
-
-![](erweiterungen-3.png){#fig-erweiterungen2}
-
-:::
-::::
-
-
-### Plugin installieren
-
-In der Suchleiste nach *Roe Deer Corridor Demo* suchen und beim entsprechenden Plugin auf [Erweiterung installieren]{.menu} klicken (s. @fig-erweiterungen4)
-
-
-
-
-![](erweiterungen-4.png){#fig-erweiterungen4}
-
-
-
-## Installation via Zip File
-
-Das Plugin kann auch via einem Zip File installiert werden. Dafür muss das Zipfile via folgendem Link heruntergeladen werden:
-
-```{r}
-#| results: asis
-#| echo: false
-library(xml2)
-library(purrr)
-plugins_xml <- read_xml("plugins.xml")
-
-plugins <- xml2::xml_find_all(plugins_xml, "pyqgis_plugin")
-names <- xml_attr(plugins, "name")
-urls  <- xml_text(xml_find_first(plugins, "download_url"))
-
-cat(paste0("- [", names, "](", urls, ")\n"), sep = "")
-```
-
-
-Danach in QGIS den Menüpunkt [Erweiterungen]{.menu} → [Erweiterungen verwalten und installieren]{.menu} auswählen. Im Reiter das Menü [Aus ZIP installieren]{.menu} auswählen (siehe @fig-erweiterungen5) und ZIP-Datei mit klick auf [...]{.menu} auswählen und mit [Erweiterung installieren]{.menu} bestätigen.
-
-![](erweiterungen-5.png){#fig-erweiterungen5}
-
-
-
-
-## Plugin *Roe Deer Corridor Demo* Verwenden
-
-Das Plugin erscheint nun als Tool in der Seitenleiste [Verarbeitungswerkzeuge]{.menu} (Processing tools) unter dem Menüpunkt *Roe Deer Corridor Demo* (siehe @fig-werkzeugleiste). Allenfalls muss diese Seitenleiste noch aktiviert werden (Menüpunkt [Verarbeitung]{.menu} → [Werkzeugleiste]{.menu}).
-
-1. Tool via der Seitenleiste öffnen.
-2. Im Tool unter dem Menüpunkt [Resistance Surface]{.menu} den Wiederstands-Raster auswählen (dieser Datensatz wird separat geliefert). Siehe @fig-werkzeug
-3. Startpunkt auswählen (mit Klick auf [...]{.menu} und danach Klick auf die Karte)
-4. Alle anderen Parameter können auf den Standardwerten belassen werden. Mit Klick auf [Starte]{.menu} ausführen.
-5. Sobald das Tool gelaufen ist, werden die Layer *Least Cost Path* sowie *Start- und Endpunkte* dem Projekt hinzugefügt (siehe @fig-resultat).
-
-
-
-
-![](werkzeugleiste.png){#fig-werkzeugleiste}
-
-
-
-::::{.column-page}
-:::{layout-ncol="2"}
-
-![](werkzeug.png){#fig-werkzeug}
-
-![](result.png){#fig-resultat}
-
-
-
-:::
-::::
 

@@ -1,0 +1,26 @@
+project:
+  type: website
+  pre-render: generate_xml.py
+  resources:
+    - plugins/*.zip
+    - plugins.xml
+  
+website:
+  navbar:
+    search: true
+    logo: images/zhaw_sw_neg.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Installation"
+        menu:
+        - text: "via ZIP File"
+          href: zip-file.qmd
+        - text: "via Plugs Repository"
+          href: zhaw-repository.qmd
+      - text: "Plugin Anleitungen"
+        menu:
+        - text: "Roe deer"
+          href: roe-deer-corridor-demo.qmd
+
+lang: de

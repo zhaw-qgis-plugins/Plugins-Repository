@@ -1,0 +1,38 @@
+
+
+## Installation via ZHAW Plugins Repository
+
+
+
+### Repositorium aufsetzen
+
+1. QGIS starten. Menü [Erweiterungen]{.menu} → [Erweiterungen verwalten und installieren]{.menu}
+2. Im Reiter [Einstellungen]{.menu} auf [Hinzufügen]{.menu} klicken (siehe @fig-erweiterungen)
+3. Den URL vom ZHAW-eigenen Plugins Repositorium  hinzufügen (siehe @fig-erweiterungen2) und mit [OK]{.menu} bestätigen
+
+
+:::{.center}
+`https://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins.xml`
+:::
+
+
+::::{.column-page}
+:::{layout-ncol="2"}
+![](images/erweiterungen.png){#fig-erweiterungen}
+
+![](images/erweiterungen-3.png){#fig-erweiterungen2}
+
+:::
+::::
+
+
+### Plugin installieren
+
+In der Suchleiste nach *Roe Deer Corridor Demo* suchen und beim entsprechenden Plugin auf [Erweiterung installieren]{.menu} klicken (s. @fig-erweiterungen4)
+
+
+
+
+![](images/erweiterungen-4.png){#fig-erweiterungen4}
+
+

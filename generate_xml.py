@@ -108,9 +108,9 @@ def main():
     )
     parser.add_argument(
         "--base-url",
-        default="",
-        help="Base URL for download links (e.g. https://example.com/plugins). "
-        "Defaults to relative paths (plugins/<filename>).",
+        default="https://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins",
+        help="Base URL for download links. "
+        "Defaults to the GitHub Pages deployment URL.",
     )
     args = parser.parse_args()
 

@@ -1,0 +1,30 @@
+
+## Plugin *Roe Deer Corridor Demo* Verwenden
+
+Das Plugin erscheint nun als Tool in der Seitenleiste [Verarbeitungswerkzeuge]{.menu} (Processing tools) unter dem Menüpunkt *Roe Deer Corridor Demo* (siehe @fig-werkzeugleiste). Allenfalls muss diese Seitenleiste noch aktiviert werden (Menüpunkt [Verarbeitung]{.menu} → [Werkzeugleiste]{.menu}).
+
+1. Tool via der Seitenleiste öffnen.
+2. Im Tool unter dem Menüpunkt [Resistance Surface]{.menu} den Wiederstands-Raster auswählen (dieser Datensatz wird separat geliefert). Siehe @fig-werkzeug
+3. Startpunkt auswählen (mit Klick auf [...]{.menu} und danach Klick auf die Karte)
+4. Alle anderen Parameter können auf den Standardwerten belassen werden. Mit Klick auf [Starte]{.menu} ausführen.
+5. Sobald das Tool gelaufen ist, werden die Layer *Least Cost Path* sowie *Start- und Endpunkte* dem Projekt hinzugefügt (siehe @fig-resultat).
+
+
+
+
+![](images/werkzeugleiste.png){#fig-werkzeugleiste}
+
+
+
+::::{.column-page}
+:::{layout-ncol="2"}
+
+![](images/werkzeug.png){#fig-werkzeug}
+
+![](images/result.png){#fig-resultat}
+
+
+
+:::
+::::
+

@@ -1,0 +1,24 @@
+## Installation via Zip File
+
+Das Plugin kann auch via einem Zip File installiert werden. Dafür muss das Zipfile via folgendem Link heruntergeladen werden:
+
+
+```{python}
+#| results: asis
+#| echo: false
+from xml.etree import ElementTree as ET
+from IPython.display import Markdown
+
+plugins_xml = ET.parse("plugins.xml")
+plugins = plugins_xml.findall("pyqgis_plugin")
+
+lines = [f"- [{p.get('name')}]({p.findtext('download_url')})" for p in plugins]
+Markdown("\n".join(lines))
+```
+
+
+Danach in QGIS den Menüpunkt [Erweiterungen]{.menu} → [Erweiterungen verwalten und installieren]{.menu} auswählen. Im Reiter das Menü [Aus ZIP installieren]{.menu} auswählen (siehe @fig-erweiterungen5) und ZIP-Datei mit klick auf [...]{.menu} auswählen und mit [Erweiterung installieren]{.menu} bestätigen.
+
+![](images/erweiterungen-5.png){#fig-erweiterungen5}
+
+
