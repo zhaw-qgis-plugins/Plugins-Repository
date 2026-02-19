@@ -1,0 +1,90 @@
+---
+title: ZHAW QGIS Plugins Repositorium
+subtitle: Nutzeranleitung
+lang: de
+engine: knitr
+format: 
+    html:
+        embed-resources: true
+        toc: true
+---
+
+```{css, echo = FALSE}
+.menu{
+    background-color: lightblue;
+    padding: 1px 4px 1px 4px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.center{
+    text-align: center
+}
+```
+
+Diese Webseite ist ein QGIS Plugin Repositorium der [ZHAW Forschungsgruppe Geoinformatik](https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/geooekologie/geoinformatik). Zum aktuellen Zeitpunkt (19.02.2026) befindet sich hier nur ein Plugin zu Demonstrationszwecken (*Roe Deer Corridor Demo*). Die vorliegende Anleitung beschreibt das Aufsetzen des ZHAW-QGIS-Plugin Repositorium, die Installation wie auch die Nutzung des Plugins *Roe Deer Corridor Demo*.
+
+
+## Repositorium aufsetzen
+
+1. QGIS starten. Menü [Erweiterungen]{.menu} → [Erweiterungen verwalten und installieren]{.menu}
+2. Im Reiter [Einstellungen]{.menu} auf [Hinzufügen]{.menu} klicken (siehe @fig-erweiterungen)
+3. Den URL vom ZHAW-eigenen Plugins Repositorium  hinzufügen (siehe @fig-erweiterungen2) und mit [OK]{.menu} bestätigen
+
+
+:::{.center}
+`https://zhaw-qgis-plugins.github.io/Plugins-Repository/plugins.xml`
+:::
+
+
+::::{.column-page}
+:::{layout-ncol="2"}
+![](erweiterungen.png){#fig-erweiterungen}
+
+![](erweiterungen-3.png){#fig-erweiterungen2}
+
+:::
+::::
+
+## Plugin installieren
+
+In der Suchleiste nach *Roe Deer Corridor Demo* suchen und beim entsprechenden Plugin auf [Erweiterung installieren]{.menu} klicken (s. @fig-erweiterungen4)
+
+
+
+
+![](erweiterungen-4.png){#fig-erweiterungen4}
+
+
+
+
+
+## Plugin *Roe Deer Corridor Demo* Verwenden
+
+Das Plugin erscheint nun als Tool in der Seitenleiste [Verarbeitungswerkzeuge]{.menu} (Processing tools) unter dem Menüpunkt *Roe Deer Corridor Demo* (siehe @fig-werkzeugleiste). Allenfalls muss diese Seitenleiste noch aktiviert werden (Menüpunkt [Verarbeitung]{.menu} → [Werkzeugleiste]{.menu}).
+
+1. Tool via der Seitenleiste öffnen.
+2. Im Tool unter dem Menüpunkt [Resistance Surface]{.menu} den Wiederstands-Raster auswählen (dieser Datensatz wird separat geliefert). Siehe @fig-werkzeug
+3. Startpunkt auswählen (mit Klick auf [...]{.menu} und danach Klick auf die Karte)
+4. Alle anderen Parameter können auf den Standardwerten belassen werden. Mit Klick auf [Starte]{.menu} ausführen.
+5. Sobald das Tool gelaufen ist, werden die Layer *Least Cost Path* sowie *Start- und Endpunkte* dem Projekt hinzugefügt (siehe @fig-resultat).
+
+
+
+
+![](werkzeugleiste.png){#fig-werkzeugleiste}
+
+
+
+::::{.column-page}
+:::{layout-ncol="2"}
+
+![](werkzeug.png){#fig-werkzeug}
+
+![](result.png){#fig-resultat}
+
+
+
+:::
+::::
+
