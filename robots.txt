@@ -1,0 +1,1 @@
+Sitemap: https://zhaw-qgis-plugins.github.io/Plugins-Repository/sitemap.xml
